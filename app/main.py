@@ -72,7 +72,7 @@ def parse_args():
                         metavar="<command>",
                         help="'search'")
     parser.add_argument('--path', required=True,
-                        # default=settings.DEFAULT_PATH_FILE,
+                        default=settings.DEFAULT_PATH_FILE,
                         metavar="/path/to/",
                         help="Path to files'")
     args = parser.parse_args()
