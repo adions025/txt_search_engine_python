@@ -42,7 +42,6 @@ matching filenames in rank order, giving the rank score against each match.
 $ python main.py search --path /to/path/files/
 ```
 
-
 ## Test
 
 The __../data/__ folder has been created to do some test and has been tested in Windows os.
